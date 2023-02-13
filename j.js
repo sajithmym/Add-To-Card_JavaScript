@@ -6,7 +6,8 @@ let Delete = (u) => {
 
 let add = (i) => {
     let code = `<div id='dis'>
-    <li> ${i.parentElement.children[1].innerHTML} </li> <button id='j' onclick="Delete(this)"><i class="fa-solid fa-trash-can"></i></button>
+    <td> ${i.parentElement.children[1].innerHTML}  </td> 
+    <td> <button id='j' onclick="Delete(this)"><i class="fa-solid fa-trash-can"></i></button> </td>
 </div>`
     $('.show').append(code)
     document.getElementById('sj').scrollIntoView()
