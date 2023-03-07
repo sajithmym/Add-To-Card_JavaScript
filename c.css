@@ -1,14 +1,17 @@
 body{
+
     background-color: rgb(60, 95, 95);
 }
 
 .col-md-3{
+
     text-align: center;
     background-color: rgb(170, 183, 192) !important;
     transition: all 1s;
 }
 
 .col-md-3:hover{
+    
     background-color: rgb(7, 41, 46) !important;
     border-radius: 10px !important;
 }
